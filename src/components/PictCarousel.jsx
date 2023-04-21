@@ -9,7 +9,7 @@ export default function PictCarousel () {
     <section>
       <Container className="carousel-container">
         <Row>
-          <Col sm={12} className="p-0">
+          <Col sm={12}>
             <Carousel>
               <Carousel.Item>
                 <img src="https://picsum.photos/300/200?random=1"

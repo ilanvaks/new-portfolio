@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 
 body {
+  background-image: url("../public/images/cityBackground.jpg");
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -17,6 +18,7 @@ h1 {
 
 h2 {
   font-weight: 700;
+  
 }
 
 .container {
@@ -40,11 +42,75 @@ h2 {
   font-size: 105%;
 }
 
-.grid-container {
-  background-color:goldenrod;
+.rounded-circle {
+  max-width: 200px;
+  height: auto;
 }
 
 .grid-container h2 {
   color: white;
 }
 
+.video-container {
+  display:flexbox;
+  padding: 3px;
+  background-color: black;
+  
+}
+
+.p-container {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgba(95, 158, 160, 0.781);
+  color: white;
+  font-weight: 800;
+  font-family: 'Bruno Ace', cursive;
+}
+
+.grid-container {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgba(95, 158, 160, 0.837);
+}
+
+.grid-container p {
+  color: white;
+  font-weight: 800;
+  font-family: 'Bruno Ace', cursive;
+}
+
+.button {
+  background-color: rgba(95, 158, 160, 0.837);
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  font-family: 'Bruno Ace', cursive;
+}
+
+.hero-container {
+  color: rgba(0, 0, 0, 0.677);
+  border: 0px; 
+  padding: 5px;
+  color: black;
+}
+
+.footer-container {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(95, 158, 160, 0.87);
+  font-weight: 800;
+}
+
+.mt-3 {
+  font-weight: 900;
+  color: white;
+  font-style: italic;
+}
+
+button {
+  background-color: rgba(95, 158, 160, 0.87);
+  color: white
+}

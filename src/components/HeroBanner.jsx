@@ -4,10 +4,10 @@ export default function HeroBanner () {
 
   return (
     <section>
-      <Container fluid className="bg-danger">
-        <Row>
+      <Container fluid>
+        <Row className="hero-container">
           <Col className="text-center">
-            Hi
+          <button type="submit"><a href="mailto:ilanvaks@gmail.com">Contact Me</a></button>
           </Col>
         </Row>
       </Container>

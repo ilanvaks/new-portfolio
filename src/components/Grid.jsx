@@ -6,8 +6,8 @@ export default function Grid () {
 
   return (
     <section>
-      <Container fluid className="grid-container">
-        <Row>
+      <Container>
+        <Row className="grid-container">
           <Col sm={12} md={4}>
             <h2>Why BC?</h2>
             <p>One aspect of Boca Code that resonated with me was its unwavering focus on building a tight-knit community. At Boca Code, individuals are empowered to uplift each other, creating a supportive atmosphere where each person is motivated to excel and reach new heights.</p>

@@ -1,11 +1,11 @@
 import Quote from './components/Quote.jsx';
 import Footer from './components/Footer.jsx';
-import './App.css';
-import PictCarousel from './components/PictCarousel.jsx';
+// import PictCarousel from './components/PictCarousel.jsx';
 import About from './components/About.jsx';
 import HeroBanner from './components/HeroBanner.jsx';
 import Grid from './components/Grid.jsx';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <About/>
       <Quote/>
       <Grid/>
-      <PictCarousel/>
+      {/* <PictCarousel/> */}
       <Footer/>
     </div>
   );
